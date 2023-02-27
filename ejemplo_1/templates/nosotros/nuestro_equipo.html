@@ -1,0 +1,15 @@
+{% extends '../layout/frontend.html '%}
+{% load static %}
+{% block titlecesar %}Nosotros nuestro equipo {% endblock %}
+
+{% block content %}
+ <main class="container">
+   <div class="row">
+      <h1>Hola desde nuestro equipo</h1>
+        <p>
+           <a href="{% url 'nosotros_nuestro_equipo_detalle' 1 'slug' %}">Nuestro Equio detalle </a>
+       </p>
+
+   </div>
+</main>
+{% endblock %}
